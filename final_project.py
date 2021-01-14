@@ -22,7 +22,7 @@ class MusicPlayer:
     def load(self):
         mixer.init()  # Initialzing pyamge mixer
         self.music_file = filedialog.askopenfilename()
-        mixer.music.load(self.music_file)re
+        mixer.music.load(self.music_file)
 
     def play(self):
         if self.music_file:
